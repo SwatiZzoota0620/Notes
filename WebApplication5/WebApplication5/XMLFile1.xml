@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/images (4).jpg</ImageUrl>
+    <AlternateText>wallpaper1</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>nature</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/images (5).jpg</ImageUrl>
+    <AlternateText>wallpaper2</AlternateText>
+    <Impressions>100</Impressions>
+    <Keyword>nature</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/images (6).jpg</ImageUrl>
+    <AlternateText>wallpaper3</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>nature</Keyword>
+  </Ad>
+</Advertisements>
