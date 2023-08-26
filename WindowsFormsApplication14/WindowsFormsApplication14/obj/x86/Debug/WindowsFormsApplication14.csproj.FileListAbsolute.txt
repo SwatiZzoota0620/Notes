@@ -1,0 +1,7 @@
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.exe
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.pdb
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.Form1.resources
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.exe
+c:\users\hp\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.pdb

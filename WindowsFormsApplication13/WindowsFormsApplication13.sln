@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication13", "WindowsFormsApplication13\WindowsFormsApplication13.csproj", "{E158F015-9BF3-4AD1-BEF1-CFA7F5DB18D2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{43B8E5CF-8C24-4854-B6D8-6C8BF97D861E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E158F015-9BF3-4AD1-BEF1-CFA7F5DB18D2}.Debug|x86.ActiveCfg = Debug|x86
+		{E158F015-9BF3-4AD1-BEF1-CFA7F5DB18D2}.Debug|x86.Build.0 = Debug|x86
+		{E158F015-9BF3-4AD1-BEF1-CFA7F5DB18D2}.Release|x86.ActiveCfg = Release|x86
+		{E158F015-9BF3-4AD1-BEF1-CFA7F5DB18D2}.Release|x86.Build.0 = Release|x86
+		{43B8E5CF-8C24-4854-B6D8-6C8BF97D861E}.Debug|x86.ActiveCfg = Debug
+		{43B8E5CF-8C24-4854-B6D8-6C8BF97D861E}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
