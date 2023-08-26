@@ -1,0 +1,4 @@
+c:\users\hp\documents\visual studio 2010\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe
+c:\users\hp\documents\visual studio 2010\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.pdb
+c:\users\hp\documents\visual studio 2010\Projects\ConsoleApplication9\ConsoleApplication9\obj\x86\Debug\ConsoleApplication9.exe
+c:\users\hp\documents\visual studio 2010\Projects\ConsoleApplication9\ConsoleApplication9\obj\x86\Debug\ConsoleApplication9.pdb
