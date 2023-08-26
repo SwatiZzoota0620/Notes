@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "implementation_datalist", "..\..\WebSites\implementation_datalist\", "{8C9F2C71-FD65-40E5-B146-2C118E7DD508}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/implementation_datalist"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\implementation_datalist\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\implementation_datalist\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/implementation_datalist"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\implementation_datalist\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\implementation_datalist\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1753"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9F2C71-FD65-40E5-B146-2C118E7DD508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9F2C71-FD65-40E5-B146-2C118E7DD508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
