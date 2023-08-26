@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "update_panel", "..\..\WebSites\update_panel\", "{A3BE6B43-4E7D-47A1-B9F7-05858790AEC5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/update_panel"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\update_panel\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\update_panel\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/update_panel"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\update_panel\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\update_panel\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1279"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3BE6B43-4E7D-47A1-B9F7-05858790AEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BE6B43-4E7D-47A1-B9F7-05858790AEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
