@@ -1,0 +1,307 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@JQUERY@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+jQuery is a small, fast and lightweight JavaScript library.
+jQuery is developed by Google.
+jQuery is platform-independent.
+jQuery means "write less do more".
+jQuery simplifies AJAX call and DOM manipulation.
+HTML, CSS, DOM manipulation
+DOM element selection
+Effects and Animations
+Utilities
+AJAX
+HTML event methods
+JSON Parsing
+Extensibility through plug-ins
+
+
+ To create the first jQuery example, you need to use JavaScript file for jQuery. You can download the jQuery file from jquery.com or use the absolute URL of jQuery file.
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  </script>  
+
+$(document).ready() and $()    // shorthand notation 
+$(document).ready() is executed only once when page is ready for JavaScript code to execute.
+
+
+jQuery Selectors
+jQuery Selectors are used to select and manipulate HTML elements.
+We can find or select HTML elements based on their id, classes, attributes, types and much more from a DOM.
+All jQuery selectors start with a dollor sign and parenthesis e.g. $(). It is known as the factory function.
+
+
+
+The $() factory function
+Every jQuery selector start with this sign $(). This sign is known as the factory function. It uses the three basic building blocks while selecting an element in a given document.
+Tag name
+Tag id
+Tag class
+
+
+
+
+
+$("*")	It is used to select all elements.
+$("#firstname")	It will select the element with id="firstname"
+$(".primary")	It will select all elements with class="primary"
+$(".primary,.secondary")	It will select all elements with the class "primary" or "secondary"
+$("p")	It will select all p elements.
+$("h1,div,p")	It will select all h1, div, and p elements.
+$("p:first")	This will select the first p element
+$("p:last")	This will select he last p element
+$("tr:even")	This will select all even tr elements
+$("tr:odd")	This will select all odd tr elements
+$("p:first-child")	It will select all p elements that are the first child of their parent
+$("p:first-of-type")	It will select all p elements that are the first p element of their parent
+$("p:last-child")	It will select all p elements that are the last child of their parent
+$("p:last-of-type")	It will select all p elements that are the last p element of their parent
+$("p:nth-child(2)")	This will select all p elements that are the 2nd child of their parent
+$("p:nth-last-child(2)")	This will select all p elements that are the 2nd child of their parent, counting from the last child
+$("p:nth-of-type(2)")	It will select all p elements that are the 2nd p element of their parent
+$("p:nth-last-of-type(2)")	This will select all p elements that are the 2nd p element of their parent, counting from the last child
+$("p:only-child")	It will select all p elements that are the only child of their parent
+$("p:only-of-type")	It will select all p elements that are the only child, of its type, of their parent
+parent > child ||	$("div > p")	It will select all p elements that are a direct child of a div element
+parent descendant	||$("div p")	It will select all p elements that are descendants of a div element
+element + next	|| $("div + p")	It selects the p element that are next to each div elements
+element ~ siblings ||	$("div ~ p")	It selects all p elements that are siblings of a div element
+:eq(index)||	$("ul li:eq(3)")	It will select the fourth element in a list (index starts at 0)
+:gt(no)||	$("ul li:gt(3)")	Select the list elements with an index greater than 3
+:lt(no)	|| $("ul li:lt(3)")	Select the list elements with an index less than 3
+:not(selector) ||	$("input:not(:empty)")	Select all input elements that are not empty
+:header ||	$(":header")	Select all header elements h1, h2 ...
+:animated ||	$(":animated")	Select all animated elements
+:focus ||	$(":focus")	Select the element that currently has focus
+:contains(text) ||	$(":contains('Hello')")	Select all elements which contains the text "Hello"
+:has(selector) ||	$("div:has(p)")	Select all div elements that have a p element
+$(":empty")	Select all elements that are empty
+$(":parent")	Select all elements that are a parent of another element
+$("p:hidden")	Select all hidden p elements
+$("table:visible")	Select all visible tables
+$(":root")	It will select the document's root element
+:lang(language) ||	$("p:lang(de)")	Select all p elements with a lang attribute value starting with "de"
+[attribute]	 || $("[href]")	Select all elements with a href attribute
+[attribute=value] || $("[href='default.htm']")	Select all elements with a href attribute value equal to "default.htm"
+[attribute!=value] ||	$("[href!='default.htm']")	It will select all elements with a href attribute value not equal to "default.htm"
+[attribute$=value] || 	$("[href$='.jpg']")	It will select all elements with a href attribute value ending with ".jpg"
+[attribute|=value] || 	$("[title|='Tomorrow']")	Select all elements with a title attribute value equal to 'Tomorrow', or starting with 'Tomorrow' followed by a hyphen
+[attribute^=value] || 	$("[title^='Tom']")	Select all elements with a title attribute value starting with "Tom"
+[attribute~=value]	|| $("[title~='hello']")	Select all elements with a title attribute value containing the specific word "hello"
+[attribute*=value] ||	$("[title*='hello']")	Select all elements with a title attribute value containing the word "hello"
+:input ||	$(":input")	It will select all input elements
+:text ||	$(":text")	It will select all input elements with type="text"
+:password ||	$(":password")	It will select all input elements with type="password"
+:radio ||	$(":radio")	It will select all input elements with type="radio"
+:checkbox ||	$(":checkbox")	Itwill select all input elements with type="checkbox"
+:submit ||	$(":submit")	It will select all input elements with type="submit"
+:reset ||	$(":reset")	It will select all input elements with type="reset"
+:button ||	$(":button")	It will select all input elements with type="button"
+:image ||	$(":image")	It will select all input elements with type="image"
+:file ||	$(":file")	It will select all input elements with type="file"
+:enabled ||	$(":enabled")	Select all enabled input elements
+:disabled ||	$(":disabled")	It will select all disabled input elements
+:selected ||	$(":selected")	It will select all selected input elements
+:checked ||	$(":checked")	It will select all checked input elements
+
+
+
+
+
+
+
+
+
+
+jQuery - Utilities
+$.trim()
+$.trim() is used to Removes leading and trailing whitespace
+$.trim( "    lots of extra whitespace    " );
+
+
+$.each()
+$.each() is used to Iterates over arrays and objects
+$.each({ foo: "bar", baz: "bim" }, function( index, value ) {
+   console.log( k + " : " + v );
+});
+
+
+$.inArray()
+$.inArray() is used to Returns a value's index in an array, or -1 if the value is not in the array.
+var myArray = [ 1, 2, 3, 5 ];
+$.inArray( 4, myArray ) 
+
+
+$.extend()
+$.extend() is used to Changes the properties of the first object using the properties of subsequent objects.
+var firstObject = { foo: "bar", a: "b" };
+var secondObject = { foo: "baz" };
+var newObject = $.extend( firstObject, secondObject );
+console.log( firstObject.foo ); 
+console.log( newObject.foo );
+
+
+$.proxy()
+$.proxy() is used to Returns a function that will always run in the provided scope — that is, sets the meaning of this inside the passed function to the second argument
+var myFunction = function() {
+   console.log( this );
+};
+var myObject = {
+   foo: "bar"
+};
+myFunction(); // window
+var myProxyFunction = $.proxy( myFunction, myObject );
+myProxyFunction();
+
+
+$.browser
+$.browser is used to give the information about browsers
+jQuery.each( jQuery.browser, function( i, val ) {
+   $( "<div>" + i + " : <span>" + val + "</span>" )
+   .appendTo( document.body );
+});
+
+
+$.contains()
+$.contains() is used to returns true if the DOM element provided by the second argument is a descendant of the DOM element provided by the first argument, whether it is a direct child or nested more deeply.
+$.contains( document.documentElement, document.body );
+$.contains( document.body, document.documentElement );
+
+
+
+
+$.data()
+$.data() is used to give the information about data
+ <body>
+      <div>
+         The values stored were <span></span>
+            and <span></span>
+      </div>
+ 
+      <script>
+         var div = $( "div" )[ 0 ];
+			
+         jQuery.data( div, "test", {
+            first: 25,
+            last: "tutorials"
+         });
+			
+         $( "span:first" ).text( jQuery.data( div, "test" ).first );
+         $( "span:last" ).text( jQuery.data( div, "test" ).last );
+      </script>
+   </body>
+
+
+
+
+$.fn.extend()
+$.fn.extend() is used to extends the jQuery prototype
+  <label><input type = "checkbox" name = "android"> 
+         Android</label>
+      <label><input type = "checkbox" name = "ios"> IOS</label>
+ 
+      <script>
+         jQuery.fn.extend({
+			
+            check: function() {
+               return this.each(function() {
+                  this.checked = true;
+               });
+            },
+            uncheck: function() {
+               return this.each(function() {
+                  this.checked = false;
+               });
+            }
+         });
+ 
+         // Use the newly created .check() method
+         $( "input[type = 'checkbox']" ).check();
+			
+      </script>
+   </body>
+
+
+
+   $.isWindow()
+$.isWindow() is used to recognise the window
+<body>
+      Is 'window' a window? <b></b>
+ 
+      <script>
+         $( "b" ).append( "" + $.isWindow( window ) );
+      </script>
+   </body>
+
+
+
+$.now()
+It returns a number which is representing the current time
+(new Date).getTime()
+
+
+$.isXMLDoc()
+$.isXMLDoc() checks whether a file is an xml or not
+
+jQuery.isXMLDoc( document )
+jQuery.isXMLDoc( document.body )
+
+
+
+
+$.globalEval()
+$.globalEval() is used to execute the javascript globally
+
+function test() {
+   jQuery.globalEval( "var newVar = true;" )
+}
+test();
+$.dequeue()
+$.dequeue() is used to execute the next function in the queue
+
+
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>jQuery.dequeue demo</title>
+		
+      <style>
+         div {
+            margin: 3px;
+            width: 50px;
+            position: absolute;
+            height: 50px;
+            left: 10px;
+            top: 30px;
+            background-color: green;
+            border-radius: 50px;
+         }
+         div.red {
+            background-color: blue;
+         }
+      </style>
+		
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+   </head>
+
+   <body>
+      <button>Start</button>
+      <div></div>
+ 
+      <script>
+         $( "button" ).click(function() {
+            $( "div" )
+            .animate({ left: '+ = 400px' }, 2000 )
+            .animate({ top: '0px' }, 600 )
+				
+            .queue(function() {
+               $( this ).toggleClass( "red" );
+               $.dequeue( this );
+            })
+				
+            .animate({ left:'10px', top:'30px' }, 700 );
+         });
+      </script>
+   </body>
+</html>
+
+
+
+

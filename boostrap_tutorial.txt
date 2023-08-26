@@ -1,0 +1,209 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BOOTSTRAP@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Add the HTML 5 doctype: Bootstrap uses HTML elements and CSS properties, so you have to add the HTML 5 doctype at the beginning of the page with lang attribute and correct character set.
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+</head>  
+<body> 
+</body>  
+</html>  
+
+
+Add the following <meta> tag inside the <head> element for proper rendering and touch zooming:
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+
+NOTES:  "width=device-width" part is used to set the width of the page to follow the screen-width of the device (vary according to the devices).
+
+
+Containers: container is used to wrap the site contents. There are two container classes.
+
+.container class:  provides a responsive fixed width container.
+.container-fluid"  class provides a full width container, spanning the entire width of the viewport.
+
+
+
+Bootstrap Jumbotron(.jumbotron)
+A Bootstrap jumbotron specifies a big box for getting extra attention to some special content or information. It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it.
+
+Jumbotron Inside Container
+The Inside container is used in jumbotron, if you want the jumbotron to not extend to the edge of the screen.
+Put the jumbotron inside the <div class="container">.
+
+
+Jumbotron Outside Container
+It is used when you want the jumbotron to extend to the screen edges.
+Put the jumbotron outside the <div class="container">.
+
+
+Full-width Jumbotron
+To get a jumbotron without rounded borders, you have to add the .jumbotron-fluid class and a .container or .container-fluid inside it.
+
+Bootstrap Page Header
+A page header is like a section divider. It adds a horizontal line under the heading.
+The .page-header class is used to create a page header.
+
+
+
+
+
+
+Bootstrap Buttons
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+.Secondary
+.Dark
+.Light
+
+
+
+
+Bootstrap Button Size
+.btn-lg
+.btn-md
+.btn-sm
+.btn-xs
+
+Bootstrap Enable/Disable Buttons
+You can set a button disable or unclickable state.
+
+The .active class is used to make a button appear pressed, and the class .disabled makes a button unclickable
+
+Bootstrap Block level buttons
+The block level button covers the entire width of the parent element.
+The .btn-block class is used to create a block level button.
+
+Button Outline/ Bordered buttons
+Bootstrap 4 provides eight outline/bordered buttons
+.btn-outline-primary
+.btn-outline-secondary
+.btn-outline-success
+.btn-outline-info
+.btn-outline-warning
+.btn-outline-danger
+.btn-outline-dark
+.btn-outline-light text-dark
+
+
+
+Bootstrap Grid System
+The Bootstrap Grid System allows up to 12 columns across the page. You can use all 12 columns individually or you can groups the columns together to create wider columns.
+Grid Classes:
+xs (for phones)
+sm (for tablets)
+md (for desktops)
+lg (for larger desktops)
+
+
+Bootstrap 4 Grid Classes
+
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+
+
+
+
+
+
+Bootstrap Tables
+.table: The basic Bootstrap table has a light padding and only horizontal dividers. The .table class is used to add basic styling to a table.
+
+Bootstrap Striped Rows Table:
+The .table-striped class is used to add zebra-stripes to a table.
+
+Bootstrap Bordered table:
+The .table-bordered class is used to add borders on all sides of the table and cells.
+
+Bootstrap Hover rows Table:
+The .table-hover class is used to enable a hover state on table rows.
+
+
+Bootstrap Condensed table:
+The .table-condensed class is used to make a table more compact by cutting cell padding in half.
+
+Bootstrap Contextual classes:.
+Contextual classes are used to color table rows (<tr>) or table cells (<td>):
+
+Following are the different contextual classes:
+
+Class	Description
+.active	It is used to apply the hover color to the table row or table cell
+.success	It indicates a successful or positive action
+.info	It indicates a neutral informative change or action
+.warning 	It specifies a warning that might need attention
+.danger	It indicates a dangerous or potentially negative action
+
+
+Responsive tables:
+The .table-responsive class is used to create a responsive table. You can open the responsible table even on small devices (under 768px). Then the table will be scrolled horizontally. Displays larger than 768px wide, there is no difference..
+
+Black/Dark Table
+The .table-dark class is used to add a black background to the table.
+
+
+Dark Striped Table
+Combine the .table-dark class and .table-striped class to create a dark, striped table.
+
+Hoverable Dark Table
+The .table-hover class is used to add a hover effect (grey background color) on table rows.
+
+
+Bootstrap 4 Contextual Table
+Contextual classes can be used to color the whole table (<table>), the table rows (<tr>) or table cells (<td>).
+
+The classes that can be used are .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark
+
+
+Table Head Colors
+You can change the background color of the table header by using .thead-dark class to add a black background to table headers, and the .thead-light class to add a grey background to table headers.
+
+Small Table
+The .table-sm class is used to make the table smaller by cutting cell padding in half
+
+
+
+
+
+
+
+Bootstrap Forms
+In Bootstrap, there are three types of form layouts:
+Vertical form (this is default)
+Horizontal form
+Inline form
+
+Bootstrap Form Rules
+
+There are three standard rules for these 3 form layouts:
+Always use <form role="form"> (helps improve accessibility for people using screen readers)
+Wrap labels and form controls in <div class="form-group"> (needed for optimum spacing)
+Add class .form-control to all textual <input>, <textarea>, and <select> elements
+
+
+2) Bootstrap Inline Form(.form-inline)
+In Bootstrap Inline forms, all elements are inline, left-aligned, and the labels are alongside.
+
+This example is only applied to forms within viewports that are at least 768px wide!
+
+3) Bootstrap Horizontal Form(.form-horizontal)
+You have to add some additional rules if you want to create a horizontal form.
+
+Additional rules for a horizontal form:
+
+Add class .form-horizontal to the <form> element
+Add class .control-label to all <label> elements
